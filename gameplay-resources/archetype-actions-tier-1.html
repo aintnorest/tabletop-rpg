@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Cards</title>
+    <style>
+        :root {
+            --card-width: 2.5in;
+            --card-height: 2.5in;
+            --card-padding: 0.15in;
+            --border-color: #000;
+            --font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-main);
+            margin: 0;
+            padding: 0.5in;
+            background-color: #f0f0f0;
+            color: #000;
+        }
+
+        .page {
+            display: grid;
+            grid-template-columns: repeat(3, var(--card-width));
+            grid-gap: 0.1in;
+            width: fit-content;
+            margin: 0 auto;
+            background: white;
+            padding: 0.2in;
+        }
+
+        .card {
+            width: var(--card-width);
+            height: var(--card-height);
+            border: 2px dashed var(--border-color);
+            padding: var(--card-padding);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: white;
+            page-break-inside: avoid;
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.1in;
+            margin-bottom: 0.1in;
+        }
+
+        .title {
+            font-size: 11pt;
+            font-weight: 800;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .meta {
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .body {
+            flex-grow: 1;
+            font-size: 9pt;
+            line-height: 1.3;
+        }
+
+        .row {
+            margin-bottom: 4px;
+        }
+
+        .label {
+            font-weight: 700;
+        }
+
+        .footer {
+            font-size: 8pt;
+            font-style: italic;
+            text-align: right;
+            margin-top: auto;
+            border-top: 1px solid #ccc;
+            padding-top: 4px;
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+                margin: 0;
+            }
+            .page {
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+            @page {
+                margin: 0.5in;
+                size: letter;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+
+    <!-- Defender Actions -->
+    <div class="card">
+        <div class="header">
+            <span class="title">Intercept</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> Self</div>
+            <div class="row"><span class="label">Target:</span> Self & an ally within 3"</div>
+            <div class="row"><span class="label">Effect:</span> Move up to 3" toward ally. If ending within 1", Self & Ally: +1 Def vs next Atk.</div>
+        </div>
+        <div class="footer">Defender</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Stand Ground</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> Self</div>
+            <div class="row"><span class="label">Target:</span> Self</div>
+            <div class="row"><span class="label">Effect:</span> Reduce all forced movement by 2" until next turn.</div>
+        </div>
+        <div class="footer">Defender</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Provoking Strike</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Atk +1 Res. Max Dmg 2. Hit: +2 Impaired OR +2 Hindered.</div>
+        </div>
+        <div class="footer">Defender</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Get Behind Me</span>
+            <span class="meta">(2 Tokens) [Reaction]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 3"</div>
+            <div class="row"><span class="label">Target:</span> An ally</div>
+            <div class="row"><span class="label">Effect:</span> Swap positions with target. Become new target of Atk. Def + Draw 1 vs Atk.</div>
+            <div class="row"><span class="label">Special:</span> Only when an ally within range is targeted by an Atk.</div>
+        </div>
+        <div class="footer">Defender</div>
+    </div>
+
+    <!-- Vanguard Actions -->
+    <div class="card">
+        <div class="header">
+            <span class="title">Bull Rush</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> Self</div>
+            <div class="row"><span class="label">Target:</span> Self, then a character at Range 0</div>
+            <div class="row"><span class="label">Effect:</span> Move up to 3". If ending B2B with a character, Reposition target. If moved, target: 1 dmg.</div>
+        </div>
+        <div class="footer">Vanguard</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Devastating Charge</span>
+            <span class="meta">(2 Tokens) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> Self</div>
+            <div class="row"><span class="label">Target:</span> Self</div>
+            <div class="row"><span class="label">Effect:</span> Advance up to 5". If Advance > 3", characters B2B: 1 dmg & Push 3".</div>
+        </div>
+        <div class="footer">Vanguard</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Leaping Strike</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Advance up to 3". Atk +1 Res. Max Dmg 2.</div>
+        </div>
+        <div class="footer">Vanguard</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Executioner</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Atk +2 Res. Max Dmg 2.</div>
+        </div>
+        <div class="footer">Vanguard</div>
+    </div>
+
+    <!-- Skirmisher Actions -->
+    <div class="card">
+        <div class="header">
+            <span class="title">Hit and Run</span>
+            <span class="meta">(2 Tokens) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Atk +2 Res. Max Dmg 3. After the Atk, Place up to 3" away.</div>
+        </div>
+        <div class="footer">Skirmisher</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Viper Strike</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Atk +1 Res. Max Dmg 2. Hit: +2 Afflicted.</div>
+        </div>
+        <div class="footer">Skirmisher</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Dodge</span>
+            <span class="meta">(1 Token) [Reaction]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> Self</div>
+            <div class="row"><span class="label">Target:</span> Self</div>
+            <div class="row"><span class="label">Effect:</span> Retreat up to 3".</div>
+            <div class="row"><span class="label">Special:</span> When targeted by an Atk. If ending out of Range, Atk Misses.</div>
+        </div>
+        <div class="footer">Skirmisher</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Backstab</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Atk +2 Res. Max Dmg 3. +1 Exposed.</div>
+            <div class="row"><span class="label">Special:</span> Only if target is Exposed.</div>
+        </div>
+        <div class="footer">Skirmisher</div>
+    </div>
+
+    <!-- Tactician Actions -->
+    <div class="card">
+        <div class="header">
+            <span class="title">Tactical Reposition</span>
+            <span class="meta">(2 Tokens) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 6"</div>
+            <div class="row"><span class="label">Target:</span> Up to 2 allies</div>
+            <div class="row"><span class="label">Effect:</span> Move each target up to 3". Closest enemy to each target: +1 Impaired.</div>
+        </div>
+        <div class="footer">Tactician</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Suppression</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> Point B2B</div>
+            <div class="row"><span class="label">Effect:</span> Place 3" Circle. Start Move in area: +2 Hindered. Enter/End in area: +2 Exposed. Sustain.</div>
+        </div>
+        <div class="footer">Tactician</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Disrupt</span>
+            <span class="meta">(1 Token) [Reaction]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 6"</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Negate Help. +2 Impaired.</div>
+            <div class="row"><span class="label">Special:</span> When target uses Help.</div>
+        </div>
+        <div class="footer">Tactician</div>
+    </div>
+
+    <!-- Anchor Actions -->
+    <div class="card">
+        <div class="header">
+            <span class="title">Rally</span>
+            <span class="meta">(2 Tokens) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 6"</div>
+            <div class="row"><span class="label">Target:</span> All allies within range</div>
+            <div class="row"><span class="label">Effect:</span> Each ally: -2 Condition, Gain 1 Vitality & 1 Essence.</div>
+        </div>
+        <div class="footer">Anchor</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Mend</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An ally</div>
+            <div class="row"><span class="label">Effect:</span> Target: Gain 2 Vitality.</div>
+        </div>
+        <div class="footer">Anchor</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Transference</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An ally</div>
+            <div class="row"><span class="label">Effect:</span> Spend up to 4 Essence. Target: Gain equal Essence.</div>
+        </div>
+        <div class="footer">Anchor</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Aid</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An ally</div>
+            <div class="row"><span class="label">Effect:</span> Choose Condition type. Target: Remove all stacks of that type.</div>
+        </div>
+        <div class="footer">Anchor</div>
+    </div>
+
+    <!-- Fixer Actions -->
+    <div class="card">
+        <div class="header">
+            <span class="title">Adaptable Strike</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Atk +1 Res. Max Dmg 2. Hit: Push 1" OR +1 Condition.</div>
+        </div>
+        <div class="footer">Fixer</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Quick Fix</span>
+            <span class="meta">(1 Token) [Active]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An ally</div>
+            <div class="row"><span class="label">Effect:</span> Target: -1 Condition OR Gain 1 Vitality.</div>
+        </div>
+        <div class="footer">Fixer</div>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <span class="title">Dirty Trick</span>
+            <span class="meta">(1 Token) [Reaction]</span>
+        </div>
+        <div class="body">
+            <div class="row"><span class="label">Range:</span> 0</div>
+            <div class="row"><span class="label">Target:</span> An enemy</div>
+            <div class="row"><span class="label">Effect:</span> Reposition Self 2". Target: 1 dmg & +1 Impaired. Gain +1 Def vs Atk.</div>
+            <div class="row"><span class="label">Special:</span> When targeted by an Atk.</div>
+        </div>
+        <div class="footer">Fixer</div>
+    </div>
+
+</div>
+
+</body>
+</html>

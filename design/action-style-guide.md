@@ -96,7 +96,7 @@ Special: [Conditional effects or restrictions]
 - Good: "Push 3"" (uses keyword)
 - Good: "+2 Exposed" (uses notation)
 - Good: "-1 Impaired" (means remove 1 stack)
-- Good: "+1 of any condition" / "-1 of any condition" (active character chooses type)
+- Good: "+1 Condition" / "-1 Condition" (active character chooses type)
 - Bad: "pushed 3"" (passive, not keyword)
 - Bad: "Apply 2 Exposed" (too long)
 
@@ -106,7 +106,7 @@ Special: [Conditional effects or restrictions]
 - Bad: "take 1 dmg" (non-standard verb)
 
 **Implicit Choice**: When options are presented with "OR", the word "Choose" is redundant and should be omitted.
-- Good: "Hit: Push 1" OR +1 of any Condition"
+- Good: "Hit: Push 1" OR +1 Condition"
 - Bad: "Hit: Choose Push 1" OR +1 of any Condition"
 - Good: "Cannot use if Engaged"
 - Bad: "Use when not in melee"
@@ -115,7 +115,7 @@ Special: [Conditional effects or restrictions]
   - Bad: "Can only be used when targeted by an Atk"
 
 **Capitalize Game Terms**: All keywords and conditions are capitalized for recognition. Capitalize "Condition" when referring to the mechanic itself.
-- Good: "+1 of any Condition"
+- Good: "+1 Condition"
 - Good: "Choose a Condition type"
 
 ## Action Construction Guidelines
