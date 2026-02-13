@@ -1,6 +1,6 @@
 ## Archetypes
 
-Your archetype defines your role when engaged in conflict and determines some of your characters base actions you have access to. Choose one archetype at character creation. When creating new actions you can build on a base action so there will be benifits and also discounts when the actions are aligned with your archetypes role. They can also effect stats.
+Your archetype defines your role when engaged in conflict and determines some of your characters base actions you have access to. Choose one archetype at character creation. When creating new actions you can build on a base action so there will be benefits and also discounts when the actions are aligned with your archetypes role. They can also affect stats.
 
 ### Defender
 
@@ -16,28 +16,28 @@ Gain +5 Max Vitality.
 **Intercept (1 Token) [Active]**
 Range: Self
 Target: Self & an ally within 3"
-Effect: Move up to 3" toward the ally. If ending within 1" of the ally, both gain +1 Def vs the next Atk.
+Effect: Move up to 3" toward the ally. If ending within 1" of ally, Self & Target: +1 Def vs next Atk.
 
 ---
 
 **Stand Ground (1 Token) [Active]**
 Range: Self
 Target: Self
-Effect: Reduce all forced movement by 2" until next turn.
+Effect: Reduce forced movement vs Self by 2" until next turn.
 
 ---
 
 **Provoking Strike (1 Token) [Active]**
 Range: 0
 Target: An enemy
-Effect: Atk +1 Res. Max Dmg 2. Hit: Choose +2 Impaired OR +2 Hindered.
+Effect: Atk +1 Res. Max Dmg 2. Hit: +2 Impaired OR +2 Hindered.
 
 ---
 
 **Get Behind Me (2 Tokens) [Reaction]**
 Range: 3"
 Target: An ally
-Effect: When the target ally is targeted by an Atk, swap positions with the target. Become the new target of the Atk. Def + Draw 1 vs this Atk.
+Effect: Swap positions with target. Become target of the Atk. Def + Draw 1 vs this Atk.
 Special: Only when an ally within range is targeted by an Atk.
 
 ---
@@ -49,14 +49,14 @@ Vanguards unleash devastating damage through aggressive forward momentum and ove
 **Party Role:** Burst damage, frontline breaker, aggressive engagement
 
 **Tier 1 Benefit**
-Start of turn: Choose -1 Impaired OR -1 Hindered. Gain +1 Max Dmg on all actions until start of next turn.
+Start of turn: -1 Impaired OR -1 Hindered. Gain +1 Max Dmg on all actions until start of next turn.
 
 **Tier 1 Actions**
 
 **Bull Rush (1 Token) [Active]**
 Range: Self
 Target: Self, then a character at Range 0
-Effect: Move up to 3". If ending B2B with a character, Reposition that character. If moved, the target suffers 1 dmg.
+Effect: Move up to 3". If ending B2B with a character, Reposition them. If Repositioned, target: 1 dmg.
 
 ---
 
@@ -190,32 +190,32 @@ Effect: Spend up to 4 Essence. Target gains equal Essence.
 **Aid (1 Token) [Active]**
 Range: 0
 Target: An ally
-Effect: Choose a condition type. Remove all stacks of that type.
+Effect: Remove all stacks of 1 Condition type.
 
 ---
 
 ## Fixer
 
-Versatile and adaptable, the Fixer have access to a wider range of general actions than other archetypes. They move quickly and can fill multiple roles as needed, making them invaluable for handling unexpected situations.
+Versatile and adaptable, the Fixers have access to a wider range of general actions than other archetypes. They move quickly and can fill multiple roles as needed, making them invaluable for handling unexpected situations.
 
 **Party Role:** Flexible utility, backup for any role, speed and versatility
 
 **Tier 1 Benefit**
-Gain +1 Action Slot. Start of turn: Choose +1 Def OR +1 Max Dmg OR +1" to all Moves. Cannot choose same benefit two turns in a row. Lasts until start of next turn.
+Gain +1 Action Slot. Start of turn: +1 Def OR +1 Max Dmg OR +1" to all Moves. Cannot choose same benefit two turns in a row. Lasts until start of next turn.
 
 **Tier 1 Actions**
 
 **Adaptable Strike (1 Token) [Active]**
 Range: 0
 Target: An enemy
-Effect: Atk +1 Res. Max Dmg 2. Hit: Choose Push 1" OR +1 of any condition.
+Effect: Atk +1 Res. Max Dmg 2. Hit: Push 1" OR +1 of any Condition.
 
 ---
 
 **Quick Fix (1 Token) [Active]**
 Range: 0
 Target: An ally
-Effect: Choose -1 condition OR Gain 1 Vitality.
+Effect: -1 Condition OR Gain 1 Vitality.
 
 ---
 

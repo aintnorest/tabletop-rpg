@@ -17,7 +17,7 @@ Vitality represents physical health and the will to survive. Combat is dangerous
 
 **Healing**: Vitality is hard to raise above the cap, but there are many ways to recover lost Vitality. However, many of the fastest methods (potent alchemical pills, dark rituals) cause Corruption.
 
-**0 Vitality**: The character is **Downed**. They cannot take actions and must roll on the **Death & Consequences Table** (TODO: Create Table).
+**0 Vitality**: The character is **Downed**. They cannot take actions and must roll on the **Death & Consequences Table** (see below).
 
 *Design Intent: This table will include outcomes ranging from Death to permanent penalties, deck augmentation (scars/trauma cards), and Corruption damage. Recovery from these states varies in difficulty.*
 
@@ -111,6 +111,6 @@ Corruption cannot be healed by normal means (rest, medicine, or standard magic).
 - **Size** I believe somewhere i say that players can only be up to size 3 but that its up to the GM. Should consolidate anything i have about size to here.
 I also want to make size matter but not sure how I should go about that in this game.
 
-- **Death & Consequences Table** (referenced in Vitality section, line 22): Need to create table with outcomes ranging from Death to permanent penalties, deck augmentation (scars/trauma cards), and Corruption damage.
+- **Death & Consequences Table** (referenced in Vitality section, line 22): Need to create table with outcomes ranging from Death to permanent penalties, deck augmentation (scars/trauma cards), and Corruption damage. Recovery from these states varies in difficulty.
 
 - **Corruption as Viable Path**: In cultivation fiction, "demonic cultivation" or "forbidden techniques" are often viable (if risky) paths to power. The current Corruption system makes shortcuts feel like traps rather than meaningful choices. Should Corruption provide mechanical benefits to balance the penalties (e.g., Corrupted actions deal bonus damage, or access to forbidden techniques)? Should there be clearer thresholds where Corruption becomes dangerous vs. manageable?
