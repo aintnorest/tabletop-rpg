@@ -92,6 +92,8 @@ Corruption cannot be healed by normal means (rest, medicine, or standard magic).
 
 ## Size
 
+Size represents the physical scale and mass of a character. Most player characters are **Size 1**.
+
 ### Base Stats Table
 
 | Size | Min Base | Max Base | Examples                   |
@@ -107,9 +109,6 @@ Corruption cannot be healed by normal means (rest, medicine, or standard magic).
 ---
 
 ## Open Questions
-
-- **Size** I believe somewhere i say that players can only be up to size 3 but that its up to the GM. Should consolidate anything i have about size to here.
-I also want to make size matter but not sure how I should go about that in this game.
 
 - **Death & Consequences Table** (referenced in Vitality section, line 22): Need to create table with outcomes ranging from Death to permanent penalties, deck augmentation (scars/trauma cards), and Corruption damage. Recovery from these states varies in difficulty.
 

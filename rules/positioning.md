@@ -43,8 +43,16 @@ A Tier 2, Size 1 character uses Reposition (2" base distance) on a Tier 3, Size 
 
 - **Inches (")**: Standard distance measurement.
 - **Range 0**: Target must be B2B (base-to-base, models touching).
-- **B2B**: Base-to-base, models are touching.
+- **B2B**: Base-to-base, models are touching. Characters of Size 2+ are considered B2B with anything within 1".
 - **Engaged**: B2B with an enemy.
 - **Range X**: Measure from base to target's base (or nearest point for terrain).
 - **Within X"**: Any point within the specified distance.
 - **LoS**: Unobstructed straight line from base to target.
+
+## Line of Sight & Cover
+
+- **Cover**: A character cannot claim Cover from an object smaller than their own Size category.
+
+## Movement Restrictions
+
+- **Blocking**: You cannot move through an enemy's space unless they are at least **2 Sizes larger** or **2 Sizes smaller** than you.
