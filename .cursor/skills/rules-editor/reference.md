@@ -6,18 +6,18 @@ This document provides extended examples, deep dives, and additional patterns fo
 
 Use this to decide where content belongs. Define each concept once in its primary file; cross-reference elsewhere.
 
-| File | Scope | Cross-References To |
-|------|-------|---------------------|
-| **action-system.md** | Action tokens, universal actions, action economy, token recovery, reading action format | Positioning (movement terms), Resolution Mechanic (Atk/Def), Conditions |
-| **archetype.md** | Archetype definitions, archetype-specific actions, party roles | Action system (format), Conditions, Positioning |
-| **conditions.md** | Condition types (Exposed, Impaired, Hindered, Afflicted), stack limits, application notation | Stats (tier for limits), Action system |
-| **equipment.md** | Gear, weapons, armor, equipment rules | Stats (Def, etc.) |
-| **identity.md** | Character identity system | Resolution Mechanic (competence) |
-| **initiative.md** | Turn order, round structure | Action system |
-| **magic-system.md** | Path, Fragments, Integration, Essence costs, sustaining, Path Suit | Stats (Essence, Corruption), Resolution Mechanic (Path Suit), Conditions |
-| **positioning.md** | Movement (Move, Advance, Retreat, Place), terrain, forced movement (Push, Pull, Reposition), Size & Tier resistance, measurement terms | Action system (movement in effects) |
-| **resolution-mechanic.md** | When to resolve, competence matrix, deck, combat resolution (Atk/Def), non-combat resolution, assistance | Stats, Conditions, Magic System (Path Suit) |
-| **stats.md** | Vitality, Defense, Essence, Corruption, Size | Conditions, Resolution Mechanic, Magic System |
+| File                       | Scope                                                                                                                                  | Cross-References To                                                      |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| **action-system.md**       | Action tokens, universal actions, action economy, token recovery, reading action format                                                | Positioning (movement terms), Resolution Mechanic (Atk/Def), Conditions  |
+| **archetype.md**           | Archetype definitions, archetype-specific actions, party roles                                                                         | Action system (format), Conditions, Positioning                          |
+| **conditions.md**          | Condition types (Exposed, Impaired, Hindered, Afflicted), stack limits, application notation                                           | Stats (tier for limits), Action system                                   |
+| **equipment.md**           | Gear, weapons, armor, equipment rules                                                                                                  | Stats (Def, etc.)                                                        |
+| **identity.md**            | Character identity system                                                                                                              | Resolution Mechanic (competence)                                         |
+| **initiative.md**          | Turn order, round structure                                                                                                            | Action system                                                            |
+| **magic-system.md**        | Path, Fragments, Integration, Essence costs, sustaining, Path Suit                                                                     | Stats (Essence, Corruption), Resolution Mechanic (Path Suit), Conditions |
+| **positioning.md**         | Movement (Move, Advance, Retreat, Place), terrain, forced movement (Push, Pull, Reposition), Size & Tier resistance, measurement terms | Action system (movement in effects)                                      |
+| **resolution-mechanic.md** | When to resolve, competence matrix, deck, combat resolution (Atk/Def), non-combat resolution, assistance                               | Stats, Conditions, Magic System (Path Suit)                              |
+| **stats.md**               | Vitality, Defense, Essence, Corruption, Size                                                                                           | Conditions, Resolution Mechanic, Magic System                            |
 
 ## Extended Ambiguity Examples
 
@@ -169,11 +169,7 @@ Reactions cost Action Tokens like all actions (see Action Costs in action-system
 
 ## Genre Tone Examples
 
-### Cultivation Fantasy Elements to Reinforce
-- **Progression**: Mechanics should support growing from mortal to godlike
-- **The System**: World governed by rigid, exploitable rules
-- **Resource gathering**: Essence, cultivation resources, breakthrough moments
-- **Power clarity**: Tiers, levels, clear power rankings
+See `design/core-concepts.md` for primary genre definitions.
 
 ### Tone-Appropriate Rule Text
 
@@ -182,26 +178,12 @@ Reactions cost Action Tokens like all actions (see Action Costs in action-system
 
 > "Consuming cultivation resources increases Essence Regeneration."
 
-> "Characters can sense the Tier of enemies within Range 12"."
-
 **Tone violations**:
 > "This creates a balanced risk-reward scenario." (meta-commentary)
 
 > "Unlike D&D, our system uses tokens." (comparison to other games)
 
 > "We thought it would be cool if..." (design justification)
-
-### When Genre Fits in Rules
-
-**Appropriate**:
-- Cultivation-specific mechanics (Essence, breakthrough, Tiers)
-- Power scaling terms
-- Setting-agnostic tactical rules presented clinically
-
-**Inappropriate**:
-- Specific setting details in mechanical rules (save for fluff/lore docs)
-- Narrative justifications for mechanics
-- In-world perspectives in rules text (save for examples)
 
 ## Action Conciseness Workshop
 
