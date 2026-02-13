@@ -45,6 +45,18 @@ Each player has a base 16-card deck (one of each suit: ♠ ♥ ♦ ♣). Composi
 ## Path Suit Interaction
 *   **Effect**: Gain 1 Essence if you draw a card matching your Path's suit.
 
+## Combat Resolution (Attacks)
+
+When an action performs an attack:
+
+- **Atk**: Perform a Draw vs a target's Def.
+- **+X Res**: Add this value to the Draw.
+- **Max Dmg**: Cap on dmg this Atk can deal. Damage is calculated as (Atk Result - Def), then capped at Max Dmg.
+- **Hit**: Atk result exceeds target's Def.
+- **Miss**: Atk result does not exceed target's Def.
+
+**Example:** An Atk with +2 Res and Max Dmg 3 is made against a target with Def 8. The attacker Draws 2 cards totaling 9, adds +2 Res for a result of 11. Damage would be (11 - 8) = 3, which does not exceed Max Dmg 3, so the target suffers 3 dmg.
+
 ## Non-Combat Resolution
 
 When performing non-combat tasks (exploring, socializing, investigating), use the following modifiers and target numbers.

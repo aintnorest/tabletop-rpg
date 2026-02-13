@@ -32,3 +32,11 @@ The maximum number of condition stacks a character can have is based on **their 
 | **Impaired X**  | -X to resolve draw      | Making an attack   |
 | **Hindered X**  | -X" to movement         | Attempting to move |
 | **Afflicted X** | 1 damage at end of turn | Taking the damage  |
+
+## Applying Conditions
+
+Actions use the following notation to apply or reduce conditions:
+
+- **+X [Condition]**: Add the specified number of condition stacks to the target (e.g., "+2 Impaired"). Unless otherwise specified, conditions are always applied to the target of the action.
+- **-X [Condition]**: Reduce condition stacks by the specified amount (e.g., "-2 Impaired"). Unless otherwise specified, conditions are removed from the target of the action.
+- **+X of any condition / -X of any condition**: When an action uses the word "Condition" without specifying a type, the active character chooses which condition type to apply or remove (e.g., "+1 of any condition", "-1 of any condition").
