@@ -30,91 +30,69 @@ At the start of a character's turn, they may pull back **one action token** from
 
 ## Universal Tier 1 Actions
 
-**Attack (1 Token) [Active]**
-Range: 0
-Target: An enemy
-Effect: Atk +0 Res. Max Dmg 2.
+> **Attack (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Atk +0 Res. Max Dmg 2.
 
----
+> **Defend (1 Token) [Reaction]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: Def + Draw 1 vs one Atk.
+> * **Special**: Only when targeted by an Atk.
 
-**Defend (1 Token) [Reaction]**
-Range: Self
-Target: Self
-Effect: Def + Draw 1 vs one Atk.
-Special: Only when targeted by an Atk.
+> **Move (1 Token) [Active]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: Move up to 3".
 
----
+> **Run (2 Tokens) [Active]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: Move up to 7".
 
-**Move (1 Token) [Active]**
-Range: Self
-Target: Self
-Effect: Move up to 3".
+> **Reposition (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: A character or terrain
+> * **Effect**: Reposition the target up to 2".
+> * **Special**: Allows Assistance.
 
----
+> **Expose (1 Token) [Active]**
+> * **Range**: 6"
+> * **Target**: An enemy
+> * **Effect**: +1 Exposed.
 
-**Run (2 Tokens) [Active]**
-Range: Self
-Target: Self
-Effect: Move up to 7".
+> **Impair (1 Token) [Active]**
+> * **Range**: 6"
+> * **Target**: An enemy
+> * **Effect**: +1 Impaired.
 
----
+> **Hinder (1 Token) [Active]**
+> * **Range**: 6"
+> * **Target**: An enemy
+> * **Effect**: +1 Hindered.
 
-**Reposition (1 Token) [Active]**
-Range: 0
-Target: A character or terrain
-Effect: Reposition the target up to 2".
-Special: Allows Assistance.
+> **Catch Breath (1 Token) [Active]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: -1 of any condition.
 
----
+> **Center (1 Token) [Active]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: Gain 1 Essence.
+> * **Special**: Once per turn.
 
-**Expose (1 Token) [Active]**
-Range: 6"
-Target: An enemy
-Effect: +1 Exposed.
+> **Interact (1 Token) [Active]**
+> * **Range**: 1"
+> * **Target**: An object or terrain
+> * **Effect**: Use an item or interact with the environment. Make a Draw if uncertain.
 
----
-
-**Impair (1 Token) [Active]**
-Range: 6"
-Target: An enemy
-Effect: +1 Impaired.
-
----
-
-**Hinder (1 Token) [Active]**
-Range: 6"
-Target: An enemy
-Effect: +1 Hindered.
-
----
-
-**Catch Breath (1 Token) [Active]**
-Range: Self
-Target: Self
-Effect: -1 of any condition.
-
----
-
-**Center (1 Token) [Active]**
-Range: Self
-Target: Self
-Effect: Gain 1 Essence.
-Special: Once per turn.
-
----
-
-**Interact (1 Token) [Active]**
-Range: 1"
-Target: An object or terrain
-Effect: Use an item or interact with the environment. Make a Draw if uncertain.
-
----
-
-**Help (1 Token) [Reaction]**
-Range: Varies
-Target: An ally
-Effect: Provide Assistance to the target's action.
-Special: Range determined by GM based on the action being assisted.
+> **Help (1 Token) [Reaction]**
+> * **Range**: Varies
+> * **Target**: An ally
+> * **Effect**: Provide Assistance to the target's action.
+> * **Special**: Range determined by GM based on the action being assisted.
 
 ---
 

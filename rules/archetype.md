@@ -13,32 +13,26 @@ Gain +5 Max Vitality.
 
 **Tier 1 Actions**
 
-**Intercept (1 Token) [Active]**
-Range: Self
-Target: Self & an ally within 3"
-Effect: Move up to 3" toward the ally. If ending within 1" of ally, Self & Target: +1 Def vs next Atk.
+> **Intercept (1 Token) [Active]**
+> * **Range**: Self
+> * **Target**: Self & an ally within 3"
+> * **Effect**: Move up to 3" toward the ally. If ending within 1" of ally, Self & Target: +1 Def vs next Atk.
 
----
+> **Stand Ground (1 Token) [Active]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: Reduce forced movement vs Self by 2" until next turn.
 
-**Stand Ground (1 Token) [Active]**
-Range: Self
-Target: Self
-Effect: Reduce forced movement vs Self by 2" until next turn.
+> **Provoking Strike (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Atk +1 Res. Max Dmg 2. Hit: +2 Impaired OR +2 Hindered.
 
----
-
-**Provoking Strike (1 Token) [Active]**
-Range: 0
-Target: An enemy
-Effect: Atk +1 Res. Max Dmg 2. Hit: +2 Impaired OR +2 Hindered.
-
----
-
-**Get Behind Me (2 Tokens) [Reaction]**
-Range: 3"
-Target: An ally
-Effect: Swap positions with target. Become target of the Atk. Def + Draw 1 vs this Atk.
-Special: Only when an ally within range is targeted by an Atk.
+> **Get Behind Me (2 Tokens) [Reaction]**
+> * **Range**: 3"
+> * **Target**: An ally
+> * **Effect**: Swap positions with target. Become target of the Atk. Def + Draw 1 vs this Atk.
+> * **Special**: Only when an ally within range is targeted by an Atk.
 
 ---
 
@@ -53,31 +47,25 @@ Start of turn: -1 Impaired OR -1 Hindered. Gain +1 Max Dmg on all actions until 
 
 **Tier 1 Actions**
 
-**Bull Rush (1 Token) [Active]**
-Range: Self
-Target: Self, then a character at Range 0
-Effect: Move up to 3". If ending B2B with a character, Reposition them. If Repositioned, target: 1 dmg.
+> **Bull Rush (1 Token) [Active]**
+> * **Range**: Self
+> * **Target**: Self, then a character at Range 0
+> * **Effect**: Move up to 3". If ending B2B with a character, Reposition them. If Repositioned, target: 1 dmg.
 
----
+> **Devastating Charge (2 Tokens) [Active]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: Advance up to 5". If Advance > 3", characters B2B: 1 dmg & Push 3".
 
-**Devastating Charge (2 Tokens) [Active]**
-Range: Self
-Target: Self
-Effect: Advance up to 5". If Advance > 3", characters B2B: 1 dmg & Push 3".
+> **Leaping Strike (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Advance up to 3". Atk +1 Res. Max Dmg 2.
 
----
-
-**Leaping Strike (1 Token) [Active]**
-Range: 0
-Target: An enemy
-Effect: Advance up to 3". Atk +1 Res. Max Dmg 2.
-
----
-
-**Executioner (1 Token) [Active]**
-Range: 0
-Target: An enemy
-Effect: Atk +2 Res. Max Dmg 2.
+> **Executioner (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Atk +2 Res. Max Dmg 2.
 
 ---
 
@@ -92,33 +80,27 @@ Start of turn: Move 2" OR -All Hindered. This Move does not provoke Reactions.
 
 **Tier 1 Actions**
 
-**Hit and Run (2 Tokens) [Active]**
-Range: 0
-Target: An enemy
-Effect: Atk +2 Res. Max Dmg 3. After the Atk, Place up to 3" away.
+> **Hit and Run (2 Tokens) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Atk +2 Res. Max Dmg 3. After the Atk, Place up to 3" away.
 
----
+> **Viper Strike (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Atk +1 Res. Max Dmg 2. Hit: +2 Afflicted.
 
-**Viper Strike (1 Token) [Active]**
-Range: 0
-Target: An enemy
-Effect: Atk +1 Res. Max Dmg 2. Hit: +2 Afflicted.
+> **Dodge (1 Token) [Reaction]**
+> * **Range**: Self
+> * **Target**: Self
+> * **Effect**: Retreat up to 3".
+> * **Special**: When targeted by an Atk. If ending out of Range, Atk Misses.
 
----
-
-**Dodge (1 Token) [Reaction]**
-Range: Self
-Target: Self
-Effect: Retreat up to 3".
-Special: When targeted by an Atk. If ending out of Range, Atk Misses.
-
----
-
-**Backstab (1 Token) [Active]**
-Range: 0
-Target: An enemy
-Effect: Atk +2 Res. Max Dmg 3. +1 Exposed.
-Special: Only if target is Exposed.
+> **Backstab (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Atk +2 Res. Max Dmg 3. +1 Exposed.
+> * **Special**: Only if target is Exposed.
 
 ---
 
@@ -133,25 +115,21 @@ Once per round: You or ally within Range 6" may perform a Reaction for 0 Tokens.
 
 **Tier 1 Actions**
 
-**Tactical Reposition (2 Tokens) [Active]**
-Range: 6"
-Target: Up to 2 allies
-Effect: Move each target up to 3". Closest enemy to each target: +1 Impaired.
+> **Tactical Reposition (2 Tokens) [Active]**
+> * **Range**: 6"
+> * **Target**: Up to 2 allies
+> * **Effect**: Move each target up to 3". Closest enemy to each target: +1 Impaired.
 
----
+> **Suppression (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: Point B2B
+> * **Effect**: Place 3" Circle. Start Move in area: +2 Hindered. Enter/End in area: +2 Exposed. Sustain.
 
-**Suppression (1 Token) [Active]**
-Range: 0
-Target: Point B2B
-Effect: Place 3" Circle. Start Move in area: +2 Hindered. Enter/End in area: +2 Exposed. Sustain.
-
----
-
-**Disrupt (1 Token) [Reaction]**
-Range: 6"
-Target: An enemy
-Effect: Negate Help. +2 Impaired.
-Special: When target uses Help.
+> **Disrupt (1 Token) [Reaction]**
+> * **Range**: 6"
+> * **Target**: An enemy
+> * **Effect**: Negate Help. +2 Impaired.
+> * **Special**: When target uses Help.
 
 ---
 
@@ -166,31 +144,25 @@ Gain +3 Max Essence. Start of turn: Choose Allies within Range 6" gain 1 Essence
 
 **Tier 1 Actions**
 
-**Rally (2 Tokens) [Active]**
-Range: 6"
-Target: All allies within range
-Effect: Each ally: -2 condition stacks, gain 1 Vitality & 1 Essence.
+> **Rally (2 Tokens) [Active]**
+> * **Range**: 6"
+> * **Target**: All allies within range
+> * **Effect**: Each ally: -2 condition stacks, gain 1 Vitality & 1 Essence.
 
----
+> **Mend (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An ally
+> * **Effect**: Target gains 2 Vitality.
 
-**Mend (1 Token) [Active]**
-Range: 0
-Target: An ally
-Effect: Target gains 2 Vitality.
+> **Transference (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An ally
+> * **Effect**: Spend up to 4 Essence. Target gains equal Essence.
 
----
-
-**Transference (1 Token) [Active]**
-Range: 0
-Target: An ally
-Effect: Spend up to 4 Essence. Target gains equal Essence.
-
----
-
-**Aid (1 Token) [Active]**
-Range: 0
-Target: An ally
-Effect: Remove all stacks of 1 Condition type.
+> **Aid (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An ally
+> * **Effect**: Remove all stacks of 1 Condition type.
 
 ---
 
@@ -205,25 +177,21 @@ Gain +1 Action Slot. Start of turn: +1 Def OR +1 Max Dmg OR +1" to all Moves. Ca
 
 **Tier 1 Actions**
 
-**Adaptable Strike (1 Token) [Active]**
-Range: 0
-Target: An enemy
-Effect: Atk +1 Res. Max Dmg 2. Hit: Push 1" OR +1 of any Condition.
+> **Adaptable Strike (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Atk +1 Res. Max Dmg 2. Hit: Push 1" OR +1 of any Condition.
 
----
+> **Quick Fix (1 Token) [Active]**
+> * **Range**: 0
+> * **Target**: An ally
+> * **Effect**: -1 Condition OR Gain 1 Vitality.
 
-**Quick Fix (1 Token) [Active]**
-Range: 0
-Target: An ally
-Effect: -1 Condition OR Gain 1 Vitality.
-
----
-
-**Dirty Trick (1 Token) [Reaction]**
-Range: 0
-Target: An enemy
-Effect: Reposition Self 2". Target: 1 dmg & +1 Impaired. Gain +1 Def vs the Atk.
-Special: When targeted by an Atk.
+> **Dirty Trick (1 Token) [Reaction]**
+> * **Range**: 0
+> * **Target**: An enemy
+> * **Effect**: Reposition Self 2". Target: 1 dmg & +1 Impaired. Gain +1 Def vs the Atk.
+> * **Special**: When targeted by an Atk.
 
 ---
 
